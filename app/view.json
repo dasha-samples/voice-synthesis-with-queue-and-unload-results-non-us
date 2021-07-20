@@ -1,0 +1,308 @@
+{
+  "node::root": {
+    "common.position": {
+      "x": 88.86041730856282,
+      "y": 98.36938384497618
+    }
+  },
+  "node::greeting": {
+    "common.position": {
+      "x": 1480,
+      "y": -81.19049700932685
+    }
+  },
+  "node::transfer_money": {
+    "common.position": {
+      "x": 1990.6991078669912,
+      "y": -26.330621451743696
+    }
+  },
+  "node::amount_conformation": {
+    "common.position": {
+      "x": 1799.953125,
+      "y": 248.96875
+    }
+  },
+  "node::from_account": {
+    "common.position": {
+      "x": 0,
+      "y": 401.953125
+    }
+  },
+  "node::to_account": {
+    "common.position": {
+      "x": 599.984375,
+      "y": 433.4453125
+    }
+  },
+  "node::account_conformation": {
+    "common.position": {
+      "x": 1199.96875,
+      "y": 474.9375
+    }
+  },
+  "node::transfer_conformation": {
+    "common.position": {
+      "x": 1799.953125,
+      "y": 474.9375
+    }
+  },
+  "node::process_transfer": {
+    "common.position": {
+      "x": 5710.594434306569,
+      "y": 1341.6528284671535
+    }
+  },
+  "node::transfer_confirmation": {
+    "common.position": {
+      "x": 5196.98296836983,
+      "y": 1080.972171532847
+    }
+  },
+  "node::account_confirmation": {
+    "common.position": {
+      "x": 4967.287847076491,
+      "y": 816.0858146829286
+    }
+  },
+  "node::resolve_target_account": {
+    "common.position": {
+      "x": 4585.561610674385,
+      "y": 572.6636107253083
+    }
+  },
+  "node::select_target_account": {
+    "common.position": {
+      "x": 4044.4768856447695,
+      "y": 505.20681265206815
+    }
+  },
+  "node::resolve_source_account": {
+    "common.position": {
+      "x": 3533.5279805352798,
+      "y": 239.9026763990268
+    }
+  },
+  "node::select_source_account": {
+    "common.position": {
+      "x": 3037.956204379562,
+      "y": 135.47445255474452
+    }
+  },
+  "node::amount_confirmation": {
+    "common.position": {
+      "x": 2528.8564476885645,
+      "y": 53.625304136253135
+    }
+  },
+  "node::new_node1": {
+    "common.position": {
+      "x": 1191.7342613184617,
+      "y": 484.1856655898592
+    }
+  },
+  "node::repeat_or_ping_hangup": {
+    "common.position": {
+      "x": -320,
+      "y": -110.77610273590173
+    }
+  },
+  "node::hello_hangup": {
+    "common.position": {
+      "x": -420.93901092926114,
+      "y": -631.988094734114
+    }
+  },
+  "node::dont_understand_hangup": {
+    "common.position": {
+      "x": -1037.815108579944,
+      "y": 361.0276348078813
+    }
+  },
+  "node::positive_or_negative": {
+    "common.position": {
+      "x": 596.3306958058705,
+      "y": 149.92769733579712
+    }
+  },
+  "node::new_node2": {
+    "common.position": {
+      "x": 1200,
+      "y": 314.98907148202187
+    }
+  },
+  "node::next_or_not": {
+    "common.position": {
+      "x": 1136.804926541119,
+      "y": 209.01538085617545
+    }
+  },
+  "node::next_or_n": {
+    "common.position": {
+      "x": 213.36735612708327,
+      "y": -178.43832501998543
+    }
+  },
+  "node::negative": {
+    "common.position": {
+      "x": 600,
+      "y": -185.9628074385123
+    }
+  },
+  "node::positive": {
+    "common.position": {
+      "x": 600,
+      "y": 452.7155118659144
+    }
+  },
+  "node::intents": {
+    "common.position": {
+      "x": 1641.3343218331136,
+      "y": 299.67699055504903
+    }
+  },
+  "node::hangup": {
+    "common.position": {
+      "x": -554.5746606823321,
+      "y": -1.722281554914075
+    }
+  },
+  "node::swear_words": {
+    "common.position": {
+      "x": -566.6306315667307,
+      "y": 98.17004863010227
+    }
+  },
+  "node::sorry_wont_call": {
+    "common.position": {
+      "x": -973.7317994649675,
+      "y": -330.8191369977133
+    }
+  },
+  "node::wait": {
+    "common.position": {
+      "x": -920,
+      "y": -195.5786092942456
+    }
+  },
+  "node::ping": {
+    "common.position": {
+      "x": -801.040048705155,
+      "y": -470.2209117074416
+    }
+  },
+  "node::repeat": {
+    "common.position": {
+      "x": -1004.9411520119216,
+      "y": -114.43429267216499
+    }
+  },
+  "node::repeat_hangup_params": {
+    "common.position": {
+      "x": -1054.876116087048,
+      "y": 257.99731438815377
+    }
+  },
+  "node::repeat_preprocessor": {
+    "common.position": {
+      "x": -1040.3117515651363,
+      "y": 41.612470062605446
+    }
+  },
+  "node::i_am_robot": {
+    "common.position": {
+      "x": -1108.9723271684352,
+      "y": 463.97904119805077
+    }
+  },
+  "node::hello_preprocessor": {
+    "common.position": {
+      "x": -1075.6823511183509,
+      "y": -626.2676744422121
+    }
+  },
+  "node::hello": {
+    "common.position": {
+      "x": -817.6850367301971,
+      "y": -582.5745808764763
+    }
+  },
+  "node::dont_understand_preprocessor": {
+    "common.position": {
+      "x": -603.380815907779,
+      "y": 349.5447485258858
+    }
+  },
+  "node::dont_understand": {
+    "common.position": {
+      "x": -672.041391511078,
+      "y": 235.1104558537208
+    }
+  },
+  "node::dont_understand_hangup_params": {
+    "common.position": {
+      "x": -726.1376025924651,
+      "y": -257.99731438815377
+    }
+  },
+  "node::can_hear_you": {
+    "common.position": {
+      "x": -998.6992815025308,
+      "y": 135.2405277034677
+    }
+  },
+  "node::i_will_call_back": {
+    "common.position": {
+      "x": -1050.7148690807876,
+      "y": -14.564364521911907
+    }
+  },
+  "node::answering_machine": {
+    "common.position": {
+      "x": -1217.1647493312094,
+      "y": -237.19107935685105
+    }
+  },
+  "node::bye": {
+    "common.position": {
+      "x": 600,
+      "y": 750.484019566716
+    }
+  },
+  "node::custom_intents": {
+    "common.position": {
+      "x": 2080,
+      "y": 300.99551068706666
+    }
+  },
+  "node::system_intents": {
+    "common.position": {
+      "x": 2742.3969213073833,
+      "y": 267.89889000054785
+    }
+  },
+  "node::system_intents_next": {
+    "common.position": {
+      "x": 1348.7284465763669,
+      "y": -104.05037506338783
+    }
+  },
+  "node::for_system_intents": {
+    "common.position": {
+      "x": 1123.0491715773614,
+      "y": -284.21113356493385
+    }
+  },
+  "node::custom_inents": {
+    "common.position": {
+      "x": 3317.8029033484004,
+      "y": 289.2108977203093
+    }
+  },
+  "node::ner": {
+    "common.position": {
+      "x": 3880,
+      "y": 298.0082099237252
+    }
+  }
+}
