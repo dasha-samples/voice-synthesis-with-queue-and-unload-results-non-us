@@ -8,8 +8,8 @@
 1. Клонируйте репозиторий и установите необходимые дополнения:
 
 ```sh
-git clone https://github.com/dasha-samples/intro-main-non-us
-cd intro-main-non-us
+git clone https://github.com/dasha-samples/voice-synthesis-with-queue-and-unload-results-non-us
+cd voice-synthesis-with-queue-and-unload-results-non-us
 npm install
 ```
 
