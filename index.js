@@ -9,10 +9,6 @@ async function main() {
 
   app.ttsDispatcher = () => "Default";
 
-  app.connectionProvider = async (conv) =>
-    conv.input.phone === "chat"
-      ? dasha.chat.connect(await dasha.chat.createConsoleChat())
-      : dasha.sip.connect(new dasha.sip.Endpoint("default"));
   await app.start({concurrency:10});
   
   if(process.argv[2] === "chat"){
@@ -36,8 +32,13 @@ async function main() {
       }
     });
 
-    const result = await conv.execute();
-    console.log(result.output);
+  conv.audio.tts = "dasha";
+
+  if (conv.input.phone === "chat") {
+    await dasha.chat.createConsoleChat(conv);
+  } else {
+    conv.on("transcription", console.log);
+  }
     
     await app.stop();
     app.dispose();
